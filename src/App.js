@@ -22,7 +22,18 @@ function App() {
       />
       <Marker position={[-37.62961546215643, 176.1717440597863]}>
         <Popup>
-          A pretty CSS3 popup. <br /> Easily customizable.
+          Set on a peninsula, Mount Maunganui is a laid-back suburb known for the extinct Mount Maunganui volcano, a
+          sacred Maori site with ocean-view hiking trails. Long, sandy Main Beach is popular for its surf breaks, while
+          Pilot Bay Beach has calm waters for paddle boarding. The Mount Hot Pools complex offers saltwater bathing and
+          spa treatments, while brunch spots, global restaurants, and boutiques fill the town centre
+        </Popup>
+      </Marker>
+
+      <Marker position={[-37.62062374364471, 176.42249007091203]}>
+        <Popup>
+          A relatively flat island covering some 10 km2 (3.9 sq mi), Motiti Island is composed mainly of Miocene
+          volcanic rocks, overlaid with more recent sediments in the south.[2] The principal activity on the island is
+          agriculture, with a developing avocado plantation.[3] Most residents and visitors travel to the island by air.
         </Popup>
       </Marker>
     </MapContainer>
